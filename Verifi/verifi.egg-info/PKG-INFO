@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: verifi
+Version: 0.0.1
+Summary: Credit card info gen/finder
+Author: amnotbr or (Clav on pypi)
+Keywords: python,credit card,info,data
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: random
+
+
+only three functions
+
+createCard(ccn length lower, ccn length upper) # generate a credit card
+
+cardLuhnChecksumIsValid(ccn) # verify the card exists based on the luhn's algorithm
+
+checkCompany(ccn) # check which company this card comes from

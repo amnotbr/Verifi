@@ -1,0 +1,7 @@
+README.md
+setup.py
+verifi.egg-info/PKG-INFO
+verifi.egg-info/SOURCES.txt
+verifi.egg-info/dependency_links.txt
+verifi.egg-info/requires.txt
+verifi.egg-info/top_level.txt
